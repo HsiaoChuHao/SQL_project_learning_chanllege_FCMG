@@ -22,7 +22,7 @@ WHERE customer = 'Atliq Exclusive' AND region = 'APAC';
 ```
 Results:
 
-<kdb> <img src="https://github.com/user-attachments/assets/757f0097-17e1-43d9-86f8-b1957504e687" width=10% height=10%>
+<kdb> <img src="https://github.com/HsiaoChuHao/picture/blob/d67e1b1e2c4814df98fd74b06cdec41bba7722b2/SQL/Challenge/Q1.png" width=10% height=10%>
 
 
 **2. What is the percentage of unique product increase in 2021 vs. 2020? The final output contains these fields,\
@@ -49,7 +49,7 @@ USING (product_code);
 Results:
 
 
-<kdb> <img src="https://github.com/user-attachments/assets/4d82fa66-466a-4c6c-b3bd-ac8720afc09e" width=45% height=45%>
+<kdb> <img src="https://github.com/HsiaoChuHao/picture/blob/d67e1b1e2c4814df98fd74b06cdec41bba7722b2/SQL/Challenge/Q2.png" width=45% height=45%>
 
 **3. Provide a report with all the unique product counts for each segment and sort them in descending order of product counts. The final output contains
 2 fields,\
@@ -63,7 +63,7 @@ ORDER BY product_count DESC;
 ```
 Results:
 
-<kdb> <img src="https://github.com/user-attachments/assets/f816a76c-dd60-481c-ace2-87c1776338a8" width=20% height=20%>
+<kdb> <img src="https://github.com/HsiaoChuHao/picture/blob/d67e1b1e2c4814df98fd74b06cdec41bba7722b2/SQL/Challenge/Q3.png" width=20% height=20%>
 
 
 **4. Follow-up: Which segment had the most increase in unique products in 2021 vs 2020? The final output contains these fields,
@@ -95,7 +95,7 @@ ORDER BY difference DESC;
 
 Results:
 
-<kdb> <img src="https://github.com/user-attachments/assets/434cb5fa-6fe2-4062-a3a7-c93ab9516061" width=50% height=50%>
+<kdb> <img src="https://github.com/HsiaoChuHao/picture/blob/d67e1b1e2c4814df98fd74b06cdec41bba7722b2/SQL/Challenge/Q4.png" width=50% height=50%>
 
 
 **5. Get the products that have the highest and lowest manufacturing costs. The final output should contain these fields,
@@ -114,7 +114,7 @@ ORDER BY manufacturing_cost DESC;
 ```
 Results:
 
-<kdb> <img src="https://github.com/user-attachments/assets/1127c1c0-d7e3-435f-ab26-3405673a5ffb" width=40% height=40%>
+<kdb> <img src="https://github.com/HsiaoChuHao/picture/blob/d67e1b1e2c4814df98fd74b06cdec41bba7722b2/SQL/Challenge/Q5.png" width=40% height=40%>
 
 
 
@@ -135,7 +135,7 @@ LIMIT 5;
 ```
 Results:
 
-<kdb> <img src="https://github.com/user-attachments/assets/6bdb581a-d6ca-47e6-946b-1f655cbca882" width=35% height=35%>
+<kdb> <img src="https://github.com/HsiaoChuHao/picture/blob/d67e1b1e2c4814df98fd74b06cdec41bba7722b2/SQL/Challenge/Q6.png" width=35% height=35%>
 
 
 
@@ -158,7 +158,7 @@ GROUP BY MONTH(s.date) , YEAR (s.date);
 ```
 Results:
 
-<kdb> <img src="https://github.com/user-attachments/assets/69904256-822f-4229-82a4-7bfa715b9114" width=20% height=20%>
+<kdb> <img src="https://github.com/HsiaoChuHao/picture/blob/d67e1b1e2c4814df98fd74b06cdec41bba7722b2/SQL/Challenge/q7.png" width=20% height=20%>
 
 
 **8. In which quarter of 2020, got the maximum total_sold_quantity? The final output contains these fields sorted by the total_sold_quantity,
@@ -191,7 +191,7 @@ ORDER BY total_sold_quantity DESC;
 ```
 Results:
 
-<kdb> <img src="https://github.com/user-attachments/assets/31eecc97-6d9d-41ea-9056-b249b3667d18" width=20% height=20%>
+<kdb> <img src="https://github.com/HsiaoChuHao/picture/blob/d67e1b1e2c4814df98fd74b06cdec41bba7722b2/SQL/Challenge/Q8.png" width=20% height=20%>
 
 
 
@@ -221,7 +221,7 @@ ORDER BY percentage DESC;
 
 Results:
 
-<kdb> <img src="https://github.com/user-attachments/assets/7bbb1e31-ae56-4d40-8223-7f6e73138346" width=30% height=30%>
+<kdb> <img src="https://github.com/HsiaoChuHao/picture/blob/d67e1b1e2c4814df98fd74b06cdec41bba7722b2/SQL/Challenge/Q9%20.png" width=30% height=30%>
 
 
 **10. Get the Top 3 products in each division that have a high total_sold_quantity in the fiscal_year 2021? The final output contains these fields,
@@ -250,4 +250,4 @@ ORDER BY total_sold_quantity DESC
 
 Results:
 
-<kdb> <img src="https://github.com/user-attachments/assets/43f94d14-242e-40d3-8e64-af5b5c95c5bc" width=50% height=50%>
+<kdb> <img src="https://github.com/HsiaoChuHao/picture/blob/d67e1b1e2c4814df98fd74b06cdec41bba7722b2/SQL/Challenge/Q10.png" width=50% height=50%>
