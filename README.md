@@ -14,7 +14,6 @@ Links:\
 - [SQL learning project](SQL_learning_project/README.md)
 - [SQL challenge FCMG](SQL_challenge_FCMG/README.md)
 
-100fjeflkefw
 
 
 ---
