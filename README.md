@@ -1,10 +1,13 @@
-# SQL project and Challenge from codebasic
-Codebasic Atliq Hardwares sales and supply chain SQL projects
-
-This repository serves as data table and metrics preparation for analysis "SQL Beginner to Advanced For Data Professionals" course and the challenge of Codebasic
+# SQL project and Challenge
+This project is related Hardware manufactures FCMG sales and supply chain SQL projects
 
 
-## 📚 Contents
+
+## Problem statement
+AtliQ Hardware manufactures and distributes computer peripherals, including networking devices, laptops, and mouse..., to a global market (APAC,EU,NA,LATAM). The company supplies products to retailers, e-commerce platforms, and distributors. Additionally, AtliQ has its own retail channels, such as AtliQ Exclusive and AtliQ E-store. The company aims to gain deeper sales insights and make accurate data-driven decisions through data analysis techniques.
+
+
+## 📚 2 parts in this SQL Repository
 
 - [SQL learning project](SQL_learning_project/README.md)
 - [SQL challenge FCMG](SQL_challenge_FCMG/README.md)
