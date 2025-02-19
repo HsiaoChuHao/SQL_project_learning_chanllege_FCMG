@@ -29,7 +29,7 @@ AtliQ Hardware manufactures and distributes computer peripherals, including netw
 <kbd>  <img src="https://github.com/HsiaoChuHao/picture/blob/c63f642dce1751f816ead8411f0fe8d4369e5b53/SQL/table%20relationship.png" width=60% height=60%>
 
 #### Entity-Releationship Diagrams (ERD)
-<kbd>  <img src="https://github.com/user-attachments/assets/ebe9fddf-e095-4ffc-8c41-d8492a071bd3" width=75% height=75%>
+<kbd>  <img src="https://github.com/HsiaoChuHao/picture/blob/057bb29bebff933baccebcc2cdf019f388b430f6/SQL/ERD.png" width=75% height=75%>
 
 
 ---
@@ -70,7 +70,7 @@ ORDER BY date ASC;
 ```
 Result:
 
-<kdb> <img src="https://github.com/user-attachments/assets/1d8297e3-1dc1-45b4-8441-14b0797d43e9" width=70% height=70%>
+<kdb> <img src="https://github.com/HsiaoChuHao/picture/blob/057bb29bebff933baccebcc2cdf019f388b430f6/SQL/learning_project/P%26L/2.png" width=70% height=70%>
 
 
 
@@ -91,7 +91,7 @@ ORDER BY s.date ASC;
 ```
 Result:
 
-<kdb> <img src="https://github.com/user-attachments/assets/1d8297e3-1dc1-45b4-8441-14b0797d43e9" width=70% height=70%>
+<kdb> <img src="https://github.com/HsiaoChuHao/picture/blob/057bb29bebff933baccebcc2cdf019f388b430f6/SQL/learning_project/P%26L/3-1.png" width=70% height=70%>
 
 
 
@@ -116,7 +116,7 @@ END;
 ```
 Result:
 
-<kdb> <img src="https://github.com/user-attachments/assets/b9ee2068-354a-4ac3-97fa-239efc0b61f1" width=60% height=60%>
+<kdb> <img src="https://github.com/HsiaoChuHao/picture/blob/057bb29bebff933baccebcc2cdf019f388b430f6/SQL/learning_project/P%26L/3-2.png" width=60% height=60%>
 
 
 
@@ -151,7 +151,7 @@ FROM CTE1;
 ```
 Result:
 
-<kdb> <img src="https://github.com/user-attachments/assets/1a1e8fc6-8a7e-4488-b6a3-7bdac87cdc80" width=70% height=70%>
+<kdb> <img src="https://github.com/HsiaoChuHao/picture/blob/057bb29bebff933baccebcc2cdf019f388b430f6/SQL/learning_project/P%26L/4.png" width=70% height=70%>
 
 
 
@@ -176,7 +176,7 @@ JOIN fact_post_invoice_deductions po
 ```
 Result:
 
-<kdb> <img src="https://github.com/user-attachments/assets/62c1feac-f540-47d8-92b4-dd9ad1e0ff6e" width=70% height=70%>
+<kdb> <img src="https://github.com/HsiaoChuHao/picture/blob/057bb29bebff933baccebcc2cdf019f388b430f6/SQL/learning_project/P%26L/5.png" width=70% height=70%>
 
 **6. Calulate the net sales**
 **(Create in Views for convenient use)**
@@ -189,7 +189,7 @@ FROM sales_postinv_discount;
 ```
 Result:
 
-<kdb> <img src="https://github.com/user-attachments/assets/5fa7888e-efea-42a4-83c0-41fdefa0fb22" width=70% height=70%>
+<kdb> <img src="https://github.com/HsiaoChuHao/picture/blob/057bb29bebff933baccebcc2cdf019f388b430f6/SQL/learning_project/P%26L/6.png" width=70% height=70%>
 
 **7. Top5 market in 2021 by net sales**
 **(Create in stored procedures for convenient use)**
@@ -206,8 +206,7 @@ LIMIT 5;
 ```
 Result:
 
-![8 7-1](https://github.com/user-attachments/assets/8df4f0ad-710f-41e5-bd8e-03fb79268727)
-
+[](https://github.com/HsiaoChuHao/picture/blob/057bb29bebff933baccebcc2cdf019f388b430f6/SQL/learning_project/P%26L/7.png)
 
 ```mysql
 CREATE DEFINER=`root`@`localhost` PROCEDURE `get_top_n_markets_by_net_sales`(
@@ -225,8 +224,8 @@ BEGIN
 	LIMIT in_top_n;
 END;
 ```
-<kdb> <img src="https://github.com/user-attachments/assets/fc276e91-7262-4b2e-9ff8-dd71e7c09ef6" width=50% height=50%>\
-<kdb> <img src="https://github.com/user-attachments/assets/7de89f83-4384-49c8-ae4d-e63fba7627eb" width=50% height=50%>
+<kdb> <img src="https://github.com/HsiaoChuHao/picture/blob/057bb29bebff933baccebcc2cdf019f388b430f6/SQL/learning_project/P%26L/7-1.png" width=50% height=50%>\
+<kdb> <img src="https://github.com/HsiaoChuHao/picture/blob/057bb29bebff933baccebcc2cdf019f388b430f6/SQL/learning_project/P%26L/7-1-1.png" width=50% height=50%>
 
 **8. Find net sales distibution by region and customer for FY 2021**
 
@@ -249,9 +248,7 @@ order by region,net_sales_mln DESC;
 ```
 Result: 
 
-<kdb> <img src="https://github.com/user-attachments/assets/fcab10a8-254b-4049-81f3-355994fddb12" width=40% height=40%>
-
-
+<kdb> <img src="https://github.com/HsiaoChuHao/picture/blob/057bb29bebff933baccebcc2cdf019f388b430f6/SQL/learning_project/P%26L/8.png" width=90% height=90%>
 
 
 ---
@@ -300,7 +297,7 @@ where  forecast_quantity is null;
 
 Result: 
 
-<kdb> <img src="https://github.com/user-attachments/assets/f51c932d-4cfb-4c30-a935-d90b9ad43d90" width=50% height=50%>
+<kdb> <img src="https://github.com/HsiaoChuHao/picture/blob/057bb29bebff933baccebcc2cdf019f388b430f6/SQL/learning_project/SC/2-1.png" width=50% height=50%>
 
 
 **2. create the trigger to automatically insert record in fact_act_est table whenever insertion happens in fact_sales_monthly and fact_forecast_monthly**
@@ -360,5 +357,5 @@ order by forecast_accuracy desc;
 ```
 Result: 
 
-<kdb> <img src="https://github.com/user-attachments/assets/c8354f8d-c371-41b8-948d-d6314b408cfd" width=80% height=80%>
+<kdb> <img src="https://github.com/HsiaoChuHao/picture/blob/057bb29bebff933baccebcc2cdf019f388b430f6/SQL/learning_project/SC/3.png" width=80% height=80%>
 
