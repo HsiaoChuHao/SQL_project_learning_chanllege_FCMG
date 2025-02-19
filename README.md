@@ -3,11 +3,6 @@ Codebasic Atliq Hardwares sales and supply chain SQL projects
 
 This repository serves as data table and metrics preparation for analysis "SQL Beginner to Advanced For Data Professionals" course and the challenge of Codebasic
 
-Links:\
-[SQL Beginner to Advanced For Data Professionals](https://codebasics.io/courses/sql-beginner-to-advanced-for-data-professionals)\
-[Codebasic SQL challenge](https://codebasics.io/challenge/codebasics-resume-project-challenge/7)
-
-
 
 ## 📚 Contents
 
@@ -57,3 +52,8 @@ Links:\
 ✅**Data Warehouse concept**
 - ETL, Data Warehouse, OLAP vs OLTP, Data Catalog
 - Fact vs Dimension Table, Star vs Snowflake Schema
+
+Links:\
+[SQL Beginner to Advanced For Data Professionals](https://codebasics.io/courses/sql-beginner-to-advanced-for-data-professionals)\
+[Codebasic SQL challenge](https://codebasics.io/challenge/codebasics-resume-project-challenge/7)
+
